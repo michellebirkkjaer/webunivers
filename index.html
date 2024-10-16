@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CampusCupid</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="CampusCupid er din online guide til at navigere rundt i studie og kærlighed, hvad enten du allerede er i et forhold eller er single.">
+    <title>CampusCupid | CampusCupid Forside</title>
+    <link rel="stylesheet" href="css/forside.css">
 </head>
 <body>
     <header>
-        <section class="titel">CampusCupid</section>
+        <section class="titel"><a href="index.html">CampusCupid</a></section>
         <a href="" class="logo"></a>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar">Menu</label>
@@ -22,7 +23,7 @@
                         <li><a href="#">Første dates +</a>
                             <!-- Sub-child: Tips under Første dates -->
                             <ul>
-                                <li><a href="#">Tips til at undgå akavethed</a></li>
+                                <li><a href="akavetoejeblikke.html">Tips til at undgå akavethed</a></li>
                                 <li><a href="#">Sjove samtalestartere</a></li>
                                 <li><a href="#">Kreative date idéer</a></li>
                             </ul>
@@ -65,7 +66,7 @@
                         </li>
                         <li><a href="#">Forhold i balance +</a>
                             <ul>
-                                <li><a href="#">Balancer studieliv og kærlighed</a></li>
+                                <li><a href="studieogkaerlighed.html">Balancer studieliv og kærlighed</a></li>
                                 <li><a href="#">Tips til at prioritere alenetid og forhold</a></li>
                                 <li><a href="#">Kommunikation i travle perioder</a></li>
                             </ul>
@@ -172,20 +173,29 @@
   <div class="slideshow-container">
     <button class="prev">&#10094;</button>
     <div class="slideshow-wrapper">
-      <div class="slide">
-        <a href="article1.html"><img src="webunivers-billeder/snak.png" alt="Article 1"></a>
+      <div class="slide" id="slide1">
+        <a href="dateideer.html"><img src="webunivers-billeder/snak.png" alt="Budgetvenlige date-ideer for studerende"></a>
+        <p>Budgetvenlige date-ideer for studerende</p>
       </div>
-      <div class="slide">
-        <a href="article2.html"><img src="webunivers-billeder/selvtillid.png" alt="Article 2" width="300"></a>
+      <div class="slide" id="slide2">
+        <a href="studieogkaerlighed.html"><img src="webunivers-billeder/balanceiforhold.png" alt="Balancen mellem studieliv og kærlighed" id="forelskelse"></a>
+        <p>Find balancen mellem studieliv og kærlighed</p>
       </div>
-      <div class="slide">
-        <a href="article3.html"><img src="webunivers-billeder/forelskelse.png" alt="Article 3" id="forelskelse" height="600"></a>
+      <div class="slide" id="slide3">
+        <a href="akavetoejeblikke.html"><img src="webunivers-billeder/akavetdate.png" alt="Sådan undgår du akavede øjeblikke på første date" width="450"></a>
+        <p>Sådan undgår du akavede øjeblikke på første date</p>
       </div>
-      <div class="slide">
+      <div class="slide" id="slide4">
         <a href="article4.html"><img src="webunivers-billeder/picnic.png" alt="Article 4"></a>
       </div>
+      <div class="slide" id="slide5">
+        <a href="article5.html"><img src="webunivers-billeder/selvtillid.png" alt="Article 5" width="300"></a>
+      </div>
       <div class="slide">
-        <a href="article5.html"><img src="article5.jpg" alt="Article 5"></a>
+        <a href="article5.html"><img src="webunivers-billeder/balancegang2.png" alt="Article 5"></a>
+      </div>
+      <div class="slide">
+        <a href="article5.html"><img src="webunivers-billeder/forelskelse.png" alt="Article 5" width="300"></a>
       </div>
       <!-- Tilføj flere artikler -->
     </div>
