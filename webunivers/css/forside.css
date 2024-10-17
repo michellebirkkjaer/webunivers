@@ -281,6 +281,9 @@ h1{
     color: #490000; /* Tekstfarve */
 }
 
+h2{
+    font-family: Poetsen One;
+}
 footer {
     background-color: #E197A8; /* Baggrundsfarve for footeren */
     color: #490000; /* Tekstfarve */
